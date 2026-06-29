@@ -7,17 +7,12 @@ int main(void)
     while (true)
     {
         n = get_int("What is n? ");
-        if (n < 0)
-        {
-            continue;
-        }
-        else
+        if (n >= 0)
         {
             break;
         }
         
     }
-    
 
     if (n < 0)
     {
