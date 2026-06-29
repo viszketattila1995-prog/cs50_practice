@@ -3,9 +3,30 @@
 
 int main(void)
 {
-    int n = get_int("What is n? ");
+    int n;
+    while (true)
+    {
+        n = get_int("What is n? ");
+        if (n < 0)
+        {
+            continue;
+        }
+        else
+        {
+            break;
+        }
+        
+    }
+    
 
-    for (int i = 0; i < n; i++) {
+    if (n < 0)
+    {
+        n = get_int("What is n? ");
+    }
+    
+
+    for (int i = 0; i < n; i++) 
+    {
         printf("meow\n");
     }
 }
