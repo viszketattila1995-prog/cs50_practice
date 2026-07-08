@@ -4,7 +4,7 @@
 float average(int length, int numbers[])
 {
     int sum = 0;
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < length; i++) 
     {
         sum += numbers[i];
     }
